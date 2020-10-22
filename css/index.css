@@ -7,19 +7,21 @@ header {
     width: 100%;
     height: 5em;
     background-color: lightgray;
+    border-bottom: 1px solid black;
 }
 
 footer {
-    background: #565656;
+    background-color: #565656;
     color: white;
     display: flex;
     height: 2.5em;
     width: 100%;
+    border-top: 1px solid black;
 }
 
 .nav-ul {
     margin-left: 7.5%;
-    
+
 }
 
 .nav-ul li {
@@ -31,8 +33,13 @@ footer {
 .main-container {
     width: 100%;
     height: 98vh;
+    overflow-y: scroll;
 }
 
 a {
     text-decoration: none;
+}
+
+#watermelon {
+    width: 100%;
 }
